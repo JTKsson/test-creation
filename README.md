@@ -29,6 +29,9 @@ run the tests continuously:
 npm run test:watch
 ```
 
+run one single file:
+npm run test:watch -- file.test.js
+
 ## Features
 - a header with the page name and a randomizer button
 - display 5 random colors on page load

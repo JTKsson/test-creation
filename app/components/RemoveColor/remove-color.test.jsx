@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
-import RemoveColor from '@/components/RemoveColor'
-import { mockColor } from './utils'
+import RemoveColor from "."
+import { mockColor } from '../../../tests/utils'
 
 const mockProps = {
   color: mockColor,
