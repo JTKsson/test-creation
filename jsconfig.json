@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tests/utils.js", "app/components/RemoveColor/remove-color.test.jsx", "tests/home.test.jsx", "tests/header.test.jsx", "tests/color-list.test.jsx", "tests/color-item.test.jsx", "tests/change-color.test.jsx", "tests/add-color.test.jsx", "app/page.jsx", "app/layout.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tests/utils.js", "tests/remove-color.test.jsx", "tests/home.test.jsx", "tests/header.test.jsx", "tests/color-list.test.jsx", "tests/color-item.test.jsx", "tests/change-color.test.jsx", "tests/add-color.test.jsx", "app/page.jsx", "app/layout.jsx"],
   "exclude": ["node_modules"]
 }

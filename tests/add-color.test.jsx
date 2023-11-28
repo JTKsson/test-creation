@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import AddColor from '@/components/AddColor'
+import AddColor from "@/app/components/AddColor"
 
 const mockProps = {
   addRandomColor: jest.fn()
