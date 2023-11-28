@@ -1,5 +1,5 @@
 import { screen, render } from '@testing-library/react'
-import ColorList from '@/components/ColorList'
+import ColorList from '@/app/components/colorList'
 import { hexcolorRegex, mockColor, isUnique } from './utils'
 
 const mockProps = {
