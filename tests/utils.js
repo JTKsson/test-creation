@@ -6,7 +6,7 @@ export const mockColor = { hex: '#4C98FB', name: 'blue' }
 
 export const mockHex = '#000000'
 
-export const colorList = [
+export const colors = [
   { name: 'Red', hex: '#FF0000' },
   { name: 'Green', hex: '#008000' },
   { name: 'Blue', hex: '#0000FF' },
