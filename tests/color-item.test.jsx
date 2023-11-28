@@ -1,6 +1,6 @@
 import { screen, render, fireEvent } from '@testing-library/react'
 import { userEvent } from '@testing-library/user-event'
-import ColorItem from '@/components/ColorItem'
+import ColorItem from '@/app/components/color-item'
 import { hexcolorRegex, mockColor } from './utils'
 
 const mockProps = {
