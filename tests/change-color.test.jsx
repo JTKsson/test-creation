@@ -41,7 +41,7 @@ describe('Change color', () => {
     test('the value of the input updates', () => {
       render(<ChangeColor {...mockProps} />)
 
-      const input: HTMLInputElement = screen.getByLabelText(/hex color/i)
+      const input = screen.getByLabelText(/hex color/i)
       fireEvent.change(input, { target: { value: mockHex } })
 
       expect(input.value).toEqual(mockHex)
