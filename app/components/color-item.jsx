@@ -1,8 +1,11 @@
+import { colorList } from "@/tests/utils"
+
 const ColorItem = () => {
+    
     return (
         <div>
-            <li></li>
-            <button>Submit</button>
+            
+            
         </div>
     )
 }
