@@ -1,12 +1,13 @@
-export const isUnique = () => new Set(array).size === array.length
-
+export const isUnique = (array) => {
+  return new Set(array).size === array.length;
+};
 export const hexcolorRegex = /^#?[a-f0-9]{6}$/i
 
 export const mockColor = { hex: '#4C98FB', name: 'blue' }
 
 export const mockHex = '#000000'
 
-export const colors = [
+export const mockColors = [
   { name: 'Red', hex: '#FF0000' },
   { name: 'Green', hex: '#008000' },
   { name: 'Blue', hex: '#0000FF' },
