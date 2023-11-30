@@ -1,4 +1,5 @@
 import { mockColors, mockColor, hexcolorRegex } from "@/tests/utils"
+import ChangeColor from "./changeColor"
 
 const ColorItem = () => {
     return (
@@ -7,10 +8,7 @@ const ColorItem = () => {
                 <h2>{mockColor.name}</h2>
                 <button>{mockColor.hex}</button>
 
-                <form aria-label="change-color" >
-                    <input id="hex" name="hex-color" hidden />
-                    
-                </form>
+                < ChangeColor />
              
             </li>
             
