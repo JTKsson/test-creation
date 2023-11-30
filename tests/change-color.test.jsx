@@ -1,5 +1,5 @@
 import { screen, render, fireEvent } from '@testing-library/react'
-import ChangeColor from '@/components/ChangeColor'
+import ChangeColor from '../app/components/changeColor'
 import { mockColor, mockHex } from './utils'
 
 const mockProps = {
